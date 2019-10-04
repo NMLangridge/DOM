@@ -32,6 +32,10 @@ const createFilmItem = function (form) {
   genre.textContent = form.genre.value;
   filmItem.appendChild(genre);
 
+  const rating = document.createElement('p');
+  rating.textContent = form.rating.value;
+  filmItem.appendChild(rating);
+
   return filmItem;
 }
 

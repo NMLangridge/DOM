@@ -9,6 +9,7 @@
 <body>
   <form id="new-item-form">
     <div id="form-wrapper">
+
       <div class="form-item">
         <label for="title" class="primary">Title</label>
         <input type="text" id="title" required/>
@@ -28,6 +29,21 @@
           <option value="Sci-Fi">Sci-Fi</option>
         </select>
       </div>
+
+      <div class="form-item">
+        <label>Rating</label>
+        <label for="1" class="primary">1</label>
+        <input type="radio" id="1" name="rating" value="1" required/>
+        <label for="2" class="primary">2</label>
+        <input type="radio" id="2" name="rating" value="2" required/>
+        <label for="3" class="primary">3</label>
+        <input type="radio" id="3" name="rating" value="3" required/>
+        <label for="4" class="primary">4</label>
+        <input type="radio" id="4" name="rating" value="4" required/>
+        <label for="5" class="primary">5</label>
+        <input type="radio" id="5" name="rating" value="5" required/>
+      </div>
+
     </div>
     <input type="submit" value="Save"/>
   </form>
